@@ -7,13 +7,9 @@ Activity 1: Beginscherm
 --------------------------
 In dit scherm kan de gebruiker een afbeelding kiezen. De afbeeldingen worden met de app meegeleverd. De afbeeldingen worden weergegeven in een ListView(). Buiten het kiezen van een afbeelding heeft dit scherm geen functie.
 
-Activity 2: Preview
---------------------------
-In dit scherm wordt er een sneak-preview weergegeven van de afbeeldingen. Dit duurt slechts 3 seconden. Daarna eindigde de Activity en gaat de app verder naar Activity 3.
-
 Activity 3: Game
 --------------------------
-In dit scherm wordt de afbeelding weergegeven en het daadwerkelijk spel gespeeld. In dit scherm kan men op de tiles klikken en de tiles worden verschoven met de empty tile (mits dit is toegestaan). In met menu zijn er een drietal opties:
+Als eerste wordt er een sneak-preview weergegeven van de afbeeldingen. Dit duurt slechts 3 seconden. Daarna wordt er in dit scherm de afbeelding weergegeven en het daadwerkelijk spel gespeeld. In dit scherm kan men op de tiles klikken en de tiles worden verschoven met de empty tile (mits dit is toegestaan). In met menu zijn er een drietal opties:
 + Terug naar beginscherm
 + Niveau instellen
     - Hard
