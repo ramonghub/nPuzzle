@@ -7,7 +7,9 @@ Activity 1: Beginscherm
 --------------------------
 In dit scherm kan de gebruiker een afbeelding kiezen. De afbeeldingen worden met de app meegeleverd. De afbeeldingen worden weergegeven in een ListView(). Buiten het kiezen van een afbeelding heeft dit scherm geen functie.
 
-Activity 3: Game
+![alt tag](https://raw.githubusercontent.com/ramonghub/nPuzzle/master/screen-choose_image.bmp?token=AI059upl7Ddf6Acsjlwg9ySl-fvXusCBks5Ube1TwA%3D%3D)
+
+Activity 2: Game
 --------------------------
 Als eerste wordt er een sneak-preview weergegeven van de afbeeldingen. Dit duurt slechts 3 seconden. Daarna wordt er in dit scherm de afbeelding weergegeven en het daadwerkelijk spel gespeeld. In dit scherm kan men op de tiles klikken en de tiles worden verschoven met de empty tile (mits dit is toegestaan). In met menu zijn er een drietal opties:
 + Terug naar beginscherm
@@ -19,9 +21,13 @@ Als eerste wordt er een sneak-preview weergegeven van de afbeeldingen. Dit duurt
 
 Verder is er in het scherm een counter te zien die het aantal gezette stappen bijhoudt.
 
-Activity 4: Won
+![alt tag](https://raw.githubusercontent.com/ramonghub/nPuzzle/master/screen-puzzle.bmp?token=AI059pIl5no5PfMgcpNShBR9FszdHxIeks5Ube2fwA%3D%3D)
+
+Activity 3: Won
 --------------------------
 De gebruiker heeft het spel gewonnen. Er wordt een bericht weergegeven om de gebruiker te feliciteren met zijn/haar overwinning.
+
+![alt tag](https://raw.githubusercontent.com/ramonghub/nPuzzle/master/screen-puzzle_menu.bmp?token=AI059o6FnvSiJJAxa9_RWvAh_7h0PFmRks5Ube3PwA%3D%3D)
 
 Functionaliteiten
 ==========================
