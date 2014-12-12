@@ -5,14 +5,14 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Holo.Light" >
         <activity
             android:name=".ImageSelection"
             android:label="@string/app_name" >
@@ -24,11 +24,23 @@
         </activity>
         <activity
             android:name=".GamePlay"
-            android:label="@string/title_activity_game_play" >
+            android:label="@string/title_activity_game_play"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".GamePlay2"
-            android:label="@string/title_activity_game_play2" >
+            android:label="@string/title_activity_game_play2"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Menu_test"
+            android:label="@string/title_activity_menu_test"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".WinActivity"
+            android:label="@string/title_activity_win"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

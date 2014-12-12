@@ -2,29 +2,22 @@
  android:layout_width="match_parent"
  android:layout_height="match_parent"
  android:orientation="vertical" >
-
-<TextView
-    android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentTop="true"
-    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-<ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/star2" />
-
-<TextView
-    android:id="@+id/textView2"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentTop="true"
-    android:layout_marginLeft="83dp"
-    android:layout_marginTop="59dp"
-    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="54dp"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textSize="50sp" />
+     
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="14dp"
+	    android:layout_alignParentTop="true"/>
 
    </RelativeLayout>
