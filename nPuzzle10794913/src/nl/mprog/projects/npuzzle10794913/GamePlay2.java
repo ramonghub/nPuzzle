@@ -99,31 +99,10 @@ public void onCreate(Bundle savedInstanceState)
 		best = 10000;
 	}
 	
-//    set settings of game by difficulty
-//	  easy
-    if(difficulty.equals("1")){
-    	blank_position = 8;
-    	board_width = 3;
-    	board_height = 3;
-    	n = (board_width * board_height) - 1;
-    }
-//    medium
-    else if(difficulty.equals("2")){
-    	blank_position = 15;
-    	board_width = 4;
-    	board_height = 4;
-    	n = (board_width * board_height) - 1;
-	}
-//	  hard
-    else if(difficulty.equals("3")){
-    	blank_position = 24;
-    	board_width = 5;
-    	board_height = 5;
-    	n = (board_width * board_height) - 1;
-    }
-
+//  set settings of game by difficulty
+	setState(difficulty);
 //    get image
-    getImage(passed_image_id2);
+    setImage(passed_image_id2);
     
 //	  cut bitmaps to set as tiles 
     blank_bmp = BitmapFactory.decodeResource(this.getResources(), R.drawable.blank);
@@ -426,7 +405,7 @@ public void onCreate(Bundle savedInstanceState)
 	}
 	
 //	select chosen image
-	public void getImage(String passed_image_id){
+	public void setImage(String passed_image_id){
 		String passed_image_id2 = passed_image_id;
 		
 		    if(passed_image_id2.equals("0")){
@@ -444,5 +423,31 @@ public void onCreate(Bundle savedInstanceState)
 		    else if(passed_image_id2.equals("4")){
 		    	img_png = BitmapFactory.decodeResource(this.getResources(), R.drawable.puzzle_4);
 		    }
+	}
+	
+	public void setState(String passed_difficulty){
+		String difficulty = passed_difficulty;
+		
+//		  easy
+	    if(difficulty.equals("1")){
+	    	blank_position = 8;
+	    	board_width = 3;
+	    	board_height = 3;
+	    	n = (board_width * board_height) - 1;
+	    }
+//	    medium
+	    else if(difficulty.equals("2")){
+	    	blank_position = 15;
+	    	board_width = 4;
+	    	board_height = 4;
+	    	n = (board_width * board_height) - 1;
+		}
+//		  hard
+	    else if(difficulty.equals("3")){
+	    	blank_position = 24;
+	    	board_width = 5;
+	    	board_height = 5;
+	    	n = (board_width * board_height) - 1;
+	    }
 	}
 }
